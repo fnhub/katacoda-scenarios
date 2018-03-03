@@ -1,0 +1,46 @@
+{
+  "title": "The Fn Project introduction",
+  "description": "Learn The Fn CLI and Fn server API, deploy and run your first the Fn function",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Install the Fn CLI tool",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Starting the Fn server",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Creating your first the Fn application",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Creating your first the serverless Fn function",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Deploying your first the serverless function to the Fn server",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "https://github.com/denismakogon",
+      "code": "install_fn.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "editor-terminal",
+    "uimessage1": "Welcome to The Fn Project!"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
