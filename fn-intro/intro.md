@@ -13,6 +13,5 @@ Fn is an event-driven, open source, Functions-as-a-Service (FaaS) compute platfo
  - Written in Go
  - Simple yet powerful extensibility
 
-The fastest way to experience Fn is to follow the quickstart below, or you can jump right to our [full documentation](https://github.com/fnproject/fn/blob/master/docs/README.md), 
-[API Docs](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/fnproject/fn/master/docs/swagger.yml), 
-or hit us up in our [Slack Community](http://slack.fnproject.io/)!
+In this tutorial we will go "from zero to serverless": will create our first serverless function, build it, deploy it, call it!
+Enjoy!
