@@ -1,10 +1,14 @@
 ## Task
 
 In this task we will create out first serverless function written with Golang.
+We need to create a folder for the function's code:
+
+`mkdir intro && cd intro`{{execute}}
+
 To simplify the process of creating functions Fn CLI tool allows to generate 
 the boilerplate (very specific to every programming language, know as the `runtime`)
 
-`fn init --name katacode --runtime go`{{execute}}
+`fn init --runtime go`{{execute}}
 
 In editor you can see new files generated:
  - func.yaml
@@ -19,7 +23,7 @@ So, what are these files?
 Functions files are used to assist fn to help you when creating functions.
 
 ```yaml
-name: katacode
+name: intro
 version: 0.0.1
 runtime: go
 entrypoint: ./func

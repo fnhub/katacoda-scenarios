@@ -7,31 +7,23 @@
     "steps": [
       {
         "title": "Getting familiar with the Fn CLI tool",
-        "text": "step1.md"
+        "text": "001-fn-cli.md"
       },
       {
         "title": "Starting the Fn server",
-        "text": "step2.md"
-      },
-      {
-        "title": "Creating your first the Fn application",
-        "text": "step3.md"
+        "text": "002-fn-start.md"
       },
       {
         "title": "Creating your first the serverless Fn function",
-        "text": "step4.md"
-      },
-      {
-        "title": "Building your first the serverless Fn function",
-        "text": "step5.md"
+        "text": "003-fn-init.md"
       },
       {
         "title": "Deploying your first the serverless function to the Fn server",
-        "text": "step6.md"
+        "text": "004-fn-deploy.md"
       },
       {
         "title": "Calling your the Fn function",
-        "text": "step7.md"
+        "text": "005-fn-call.md"
       }
     ],
     "intro": {
