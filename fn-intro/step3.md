@@ -2,7 +2,7 @@
 
 In this task we would go through Fn apps API to get familiar with those.
 
-## What “app” is?
+## What is an “app”?
 
 In order to create a function Fn will ask a user to create a placeholder for that function, 
 so we call it an “app”, so the idea here is very simple — “serverless app” consists of number of functions, 
