@@ -6,4 +6,4 @@ All you have to do is to execute the following command:
 
 `fn -v build`{{execute}}
 
-and wait until it finish.
+and wait until it finishes.
