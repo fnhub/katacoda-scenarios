@@ -1,15 +1,15 @@
 ## Task
 
-In this task we would deploy our function to the Fn server.
+In this task we will deploy our function to the Fn server.
 To do so please use the following command:
 
 `fn deploy --local --app katacoda`{{execute}}
 
-`fn deploy` will use the application we created previously and with help of the `func.yaml` will create the Fn route to that function.
+`fn deploy` will use the application we created previously. With the help of the `func.yaml` file, it will create the Fn route to that function.
 
-## What "route" is?
+## What is a "route"?
 
-Route is an HTTP path to your function. So, basically, with help of the routes developers can define the HTTP webhook to the particular function.
+Route is an HTTP path to your function. So, basically, with help of the routes developers can define an HTTP webhook to a particular function.
 
 Let's check the details of this function's route:
 
@@ -28,7 +28,7 @@ Okay, you can see that route has more attributes than the `func.yaml`:
 }
 ```
 
-So, we have new attributes to us:
+So, we see the following new attributes:
  - `idle_timeout` - in seconds, related to the function's format, defines the time that function should hang around in-between the calls before suspended
  - `memory` - in Mb, RAM allocated for the function
  - `timeout` - in seconds, function's call timeout, if function takes longer than the timeout it gets suspended
