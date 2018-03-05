@@ -3,7 +3,7 @@
 In this task we will deploy our function to the Fn server.
 To do so please use the following command:
 
-`fn deploy --local --app first-app`{{execute}}
+`fn -v deploy --local --app first-app`{{execute}}
 
 `fn deploy` will use the application we created previously. With the help of the `func.yaml` file, it will create the Fn route to that function.
 
@@ -13,7 +13,7 @@ Route is an HTTP path to your function. So, basically, with help of the routes d
 
 Let's check the details of this function's route:
 
-`fn routes inspect katacoda /tutorial`{{execute}}
+`fn routes inspect first-app /intro`{{execute}}
 
 Okay, you can see that route has more attributes than the `func.yaml`:
 ```json
