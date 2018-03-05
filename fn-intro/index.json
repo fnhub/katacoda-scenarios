@@ -28,7 +28,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "https://github.com/denismakogon",
+      "credits": "https://github.com/fnproject",
       "code": "install_fn.sh"
     },
     "finish": {
